@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h2, b{
+    color:darkslategray
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding-top: 60px;
+}
+
+header {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 25px;
+    color: antiquewhite;
+}
+
+header h2{
+    color: antiquewhite;
+}
+
+main {
+    margin: 1% 20% 5%;
+}
+
+
+nav {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 25px 20px;
+}
+
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: 800;
+    /* ampliaremos el margin */
+    margin: 0px 5px;
+}
+
+nav a i{
+    font-size: 14pt;
+}
+
+
+nav a:hover{
+    padding: 10px;
+    text-decoration: none;
+    background-color: darkslategray;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+
+
+section{
+    padding: 30px;
+    border-bottom: 1px darkslategray solid;
+}
+
+.menu-fijo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#habilidades ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+#habilidades ul li.js:hover{
+    background: linear-gradient(90deg, antiquewhite 30%, #FFFFFF 30%)
+}
+
+#habilidades ul li.html:hover{
+    background: linear-gradient(90deg, antiquewhite 70%, #FFFFFF 70%)
+}
+
+#habilidades ul li.css:hover{
+    background: linear-gradient(90deg, antiquewhite 60%, #FFFFFF 60%)
+}
+
+#habilidades ul li.mdb:hover{
+    background: linear-gradient(90deg, antiquewhite 10%, #FFFFFF 10%)
+}
+
+#habilidades ul li.ejs:hover{
+    background: linear-gradient(90deg, antiquewhite 10%, #FFFFFF 10%)
+}
+
+#habilidades ul li.react:hover{
+    background: linear-gradient(90deg, antiquewhite 20%, #FFFFFF 20%)
+}
+
+#habilidades ul li.njs:hover{
+    background: linear-gradient(90deg, antiquewhite 20%, #FFFFFF 20%)
+}
+
+
+#habilidades ul li{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#experiencia ul, li{
+    list-style:none ;    
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#proyectos ul, li{
+    list-style:none ;    
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#proyectos ul li a{
+   text-decoration: none;
+   color: black;
+   font-weight: 600;
+}
+
+#proyectos ul li a:hover{
+    text-decoration:underline;
+    color: darkslategray;
+    font-weight: 800;
+    font-size: 13pt;
+ }
+ 
+
+
+
+.contacto form{
+    margin: 0 auto;
+}
+
+.contacto form input, .contacto form textarea{
+    width: 100%;
+    padding: 15px 0 10px 0;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    text-align: center;
+  }
+
+.contacto form input.boton-enviar:hover{
+    color: white;
+    background-color: darkslategray;
+    border-width: 2px;
+    border-color: darkslategray;
+    border-right:darkslategray;
+    border-radius: 2px;
+}
